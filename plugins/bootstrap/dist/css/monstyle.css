@@ -1,0 +1,30 @@
+/* [class*="col-"] { width: 90%; } */
+.titres {
+    background-color: #DDD;
+    line-height: 40px;
+    text-align: center;
+    }
+.bordire{
+        border: 1px solid #DDE;
+        border-radius: 3px;
+    }
+.corps{
+    height:430px;
+    width: 100%;
+}
+.fenetre{
+    height:350px;
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+.labelles{
+    color: grey;
+    
+    
+}
+.bkchamp{
+    background-color: hsl(220, 66%, 35%)
+}
+/* a:active, a:focus { outline:none; } */
