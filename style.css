@@ -1,11 +1,16 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    }
 .body{
-    height: 100vh;
+    height: 500px;
     width: 100%;
     background-image: url("images/2.png");
-    background-size: cover;
+     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border: 1px solid blue;
+    margin: 0px;
+    padding: 0px;
 }
 .nav{
     background-color: transparent;
@@ -17,8 +22,9 @@
 }
 .logo{
     color: yellow;
-    font-size: 35px;
+    font-size: 40px;
     padding-left: 5px;
+    cursor: pointer;
     
 }
 
@@ -68,4 +74,83 @@ a:hover{
     border-radius: 30px; 
 }
 
+/* mis en forme du peid avec le border qui a trois paramettre */
+.pied{
+    
+    height: 300px;
+    width: 100%;
+    /* background-color: #1a202c; */
+    background-color: #3a78c5;
+    margin-top: 50px;
+    padding: 0px;
+    color: white;
+    font-weight: 200px;
+}
 
+.ft1{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    
+}
+
+.ft2{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    
+}
+
+.s1{
+    width: 45%;
+    }
+.flex{
+        display: flex;
+        justify-content: space-around;
+}
+
+.s2{
+    width: 15%;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+.line{
+    height: 100px;
+    width: 2px;
+    background: white;
+    margin-top: 15px;
+}
+
+.titre{
+    font-size: 18px; 
+    height: 10px;
+    text-align: center;
+}
+
+.sublin{
+    height: 2px;
+    width: 170px;
+    margin-left: 35%;
+    background-color: white;
+}
+
+.contact{
+    margin-left: 25px;
+    border-left: 1px solid white;
+    padding-left: 25px;
+}
+
+.lien{
+    height: 60px;
+    width: 60px;
+   cursor: pointer;
+}
+
+.textlien{
+    font-weight: 400;
+  }
