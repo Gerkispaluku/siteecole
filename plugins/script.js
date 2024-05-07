@@ -1,7 +1,7 @@
 new Swiper('.swiper-slider',
 {
     centredSlider: true,
-    slidesPerView:3,
+    slidesPerView:2,
     spaceBetween: 10,
     mousewheel:false,
     autoplay:{

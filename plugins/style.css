@@ -3,12 +3,12 @@ html{
     padding: 0px;
     }
 .body{
-    height: 500px;
+    /* height: 500px; */
     width: 100%;
-    background-image: url("images/2.png");
+    background-image: url("../images/2.png");
      background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
     margin: 0px;
     padding: 0px;
 }
@@ -105,10 +105,10 @@ a:hover{
 
 .s1{
     width: 45%;
-    }
+}
 .flex{
-        display: flex;
-        justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .s2{
@@ -153,4 +153,53 @@ a:hover{
 
 .textlien{
     font-weight: 400;
+  }
+
+  .detailPub{
+     width: 100%;
+     padding: 40px;
+     background: white;
+     
+   
+    
+
+  }
+
+  .titrepub{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(116, 116, 249);
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    border-radius: 60px 60px 0px 0px;
+  }
+
+  .textepub{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: -35px;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid rgb(116, 116, 249);
+    border-radius: 60px 60px 0px 0px;
+    box-shadow: 0px 20px 50px rgb(255, 255, 255);
+    text-align:justify;
+    padding: 20px;
+
+  }
+  .btn-close{
+    margin-top: 15px;
+    margin-left: -50%;
+    position:fixed;
+    font-size: 12px;
+    
+    
+    
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-decoration: none;
+    
   }
