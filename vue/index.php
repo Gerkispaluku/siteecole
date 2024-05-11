@@ -5,13 +5,22 @@
 
     <div class="swiper swiper-slider ">
         <div class="swiper-wrapper marge">
-            <img class="swiper-slide "   src="../images/pascal.JPG">
-            <img class="swiper-slide "  src="../images/couple.JPG">
-            <img class="swiper-slide "  src="../images/BBO.png">
-            <img class="swiper-slide "  src="../images/defense.JPG"> 
-            <!-- <img class="swiper-slide "  src="../images/gateau.JPG" -->
-            <img class="swiper-slide "  src="../images/rondpoint.png">
-        </div> 
+            <div class="swipper-slide">
+                <?php
+                    include('information.php');
+                ?>
+            </div>
+            <div class="swipper-slide">
+                <?php
+                    include('information.php');
+                ?>
+            </div>
+            <div class="swipper-slide">
+                <?php
+                    include('information.php');
+                ?>
+            </div>
+      </div> 
     </div>
 
 <?php

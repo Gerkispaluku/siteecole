@@ -194,12 +194,44 @@ a:hover{
     margin-left: -50%;
     position:fixed;
     font-size: 12px;
-    
-    
-    
+      
     height: 20px;
     background-color: rgb(255, 255, 255);
     color: black;
     text-decoration: none;
     
   }
+  .titreInfo{
+    font-weight: 500px;
+    font-size: 18px;
+    color:  rgb(116, 116, 249);
+    text-align: center;
+    /* border-bottom: 1px solid rgb(116, 116, 249); */
+    height: 50px;
+    align-content: center;
+
+  }
+  .corpsInfo{
+    padding: 3px;
+    border-radius: 20px;
+    border:1px solid rgb(116, 116, 249);
+    height: 400px;
+    width: 600px;
+    background-color: white;
+
+
+  }
+  .lienPage{
+    text-decoration: none;
+    color: rgb(116, 116, 249);
+    cursor:pointer;
+    font-size: 14px;
+    bottom:0px;
+  }
+.resume{
+    height:300px;
+}
+.frm{
+    height: 1000px;
+    border:1px solid gray;
+}

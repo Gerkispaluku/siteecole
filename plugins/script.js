@@ -5,7 +5,7 @@ new Swiper('.swiper-slider',
     spaceBetween: 10,
     mousewheel:false,
     autoplay:{
-        delay: 2000,
+        delay: 5000,
         desableOninteraction: false,
     }
 

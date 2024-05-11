@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+<>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../plugins/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../plugins/summernote/summernote-bs4.css">
     <link rel="stylesheet" href="../plugins/style.css">
+   
+    
     
     <!-- appel a librairie swipper avec le fichier css et js -->
     <link rel="stylesheet" href="../plugins/swiper/swiper-bundle.min.css">
+
+
     
    
 

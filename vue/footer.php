@@ -80,11 +80,14 @@
 </html>
 
 <!-- appel de script JS lequivalent de link -->
-<script src="../plugins/swiper/swiper-bundle.min.js"> </script>
 <script src="../plugins/script.js"> </script>
-
 <script src="../plugins/jquery/dist/jquery.min.js"> </script>
-<script src="../plugins/jquery/dist/jquery.js"></script>
+<script src="../plugins/jquery/dist/summernote/summernote-bs4.min.js"></script>
 <script src="../plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+    $(function() {
+        $('.textarea').summernote();
+    })
+</script>
 
     
